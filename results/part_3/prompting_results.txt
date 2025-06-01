@@ -1,0 +1,79 @@
+# Prompt Engineering Results
+
+## Question: What foods should be avoided by patients with gout?
+
+### Zero-shot response:
+sulphites
+
+### One-shot response:
+Grains like peas can also cause gout, but they should be avoided by diabetic patients, alcoholic patients, people with thyroid diseases, and other patients with gout.
+
+### Few-shot response:
+Gout causes painful bursts of fluid in joints and drained of blood, resulting in painful swelling on the capillaries of the affected joints. Patients with gout should avoid foods high in protein, such as red meat, cold cuts, pasta, and many foods high in fat.
+
+--------------------------------------------------
+
+## Question: What medications are commonly prescribed for gout?
+
+### Zero-shot response:
+antacids
+
+### One-shot response:
+Asthaminas, colchicine, vinblastine, and tamiflu (Cialis) are commonly prescribed.
+
+### Few-shot response:
+Prescription drugs such as cyclophosphamide, doxazocine, or ketoconazole are routinely prescribed for gout.
+
+--------------------------------------------------
+
+## Question: How can gout flares be prevented?
+
+### Zero-shot response:
+If flares are rare, keep food low in uric acid.
+
+### One-shot response:
+Keep your joints loose and dry
+
+### Few-shot response:
+Gout flares are prevented by daily exercise.
+
+--------------------------------------------------
+
+## Question: Is gout related to diet?
+
+### Zero-shot response:
+no
+
+### One-shot response:
+Gout is a disease caused by over eating, which is thought to be contributing to its development. Gout also affects other tissues and organs in the body.
+
+### Few-shot response:
+Gout is caused by excessive salt intake in the foods.
+
+--------------------------------------------------
+
+## Question: Can gout be cured permanently?
+
+### Zero-shot response:
+no
+
+### One-shot response:
+Gout is a condition that causes persistent, progressive, and sometimes fatal inflammation of the joints and tendons. Medications can be taken to treat gout symptoms, such as injections, but are usually ineffective to treat the underlying disease.
+
+### Few-shot response:
+Gout's effects may last for years. The condition only responds to treatment.
+
+--------------------------------------------------
+
+## Scores
+
+question,zero_shot,one_shot,few_shot
+what_foods_should_be,0.00,0.17,0.17
+what_medications_are,0.00,0.17,0.00
+how_can_gout_flares_,0.00,0.00,0.17
+is_gout_related_to_d,0.00,0.00,0.17
+can_gout_be_cured_pe,0.00,0.20,0.20
+
+average,0.00,0.11,0.14
+best_method,few_shot
+```
